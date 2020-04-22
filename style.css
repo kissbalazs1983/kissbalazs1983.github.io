@@ -1,0 +1,111 @@
+header {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+
+header img {
+  width: 100%;
+}
+
+header h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header {
+  position: absolute;
+  top: 55%;
+  right: 33%;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  letter-spacing: .15rem;
+}
+
+main {
+  margin: auto;
+  width: 60%;
+}
+
+h3, h4, h5 {
+  font-family: 'Merriweather', serif;
+}
+
+p, ul {
+  font-family: font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.325rem;
+  
+}
+
+strong{
+ font-weight:bold;
+}
+
+ul {
+  margin-bottom: 3rem;
+  font-size: 14px;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin-bottom: 3rem;
+}
+
+h4 {
+  letter-spacing: .12rem;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-top: .125rem;
+  font-style: italic;
+}
+
+.blockq {
+  position: relative;
+  width: 100%;
+  background: #222;
+  color: white;
+  font-size: 2.2rem;
+  font-family: 'Abril Fatface', cursive;
+  padding: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  
+}
+
+.cite {
+  font-size: 2rem;
+  font-family: 'Abril Fatface', cursive;
+  line-height: 3rem;
+  letter-spacing: .125rem;
+  
+}
+
+blockquote p::before {
+    content: '\201C';
+  font-size: 6.2rem;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  
+  
+}
+
+hr {
+  width: 80vh;
+  height: 5px;
+  background: black;
+}
+
+footer {
+  width: 60%;
+  margin: 50px auto;
+}
